@@ -1,0 +1,25 @@
+{
+  "name": "@justinc/jsdocs",
+  "version": "0.0.1",
+  "description": "This package contains common JSDoc 3 documentation to be used by other packages",
+  "scripts": {
+    "jsdoc2md": "jsdoc2md --template README.hbs lib/* >> README.md",
+    "readme": "rm -rf README.md && npm run jsdoc2md",
+    "postversion": "npm publish --access=public && git push --follow-tags",
+    "prepublish": "npm run readme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justin-calleja/typedefs.git"
+  },
+  "keywords": [],
+  "author": "Justin Calleja <calleja.justin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justin-calleja/typedefs/issues"
+  },
+  "homepage": "https://github.com/justin-calleja/typedefs#readme",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^3.0.0"
+  }
+}
