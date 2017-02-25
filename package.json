@@ -1,6 +1,6 @@
 {
   "name": "@justinc/jsdocs",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "This package contains common JSDoc 3 documentation to be used by other packages",
   "scripts": {
     "postversion": "npm publish --access=public && git push --follow-tags"
