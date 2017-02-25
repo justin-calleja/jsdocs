@@ -1,0 +1,14 @@
+/**
+ * A function of type Mapper is a similar function to what you'd pass to [Array.map](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+ * @callback Mapper
+ * @memberof module:@justinc/jsdocs
+ * @param  {X} currentValue The current element being processed in the array.
+ * @param  {number} index The index of the current element being processed in the array.
+ * @param  {Array<X>}  array The array map was called upon.
+ * @returns {Array<Y>}
+ * @template X,Y
+ * @example
+ * const appendIndex = (x, i) => x + `${i}`
+ * ;[1, 2, 3].map(appendIndex)
+ * // gives: ['10', '21', '32']
+ */

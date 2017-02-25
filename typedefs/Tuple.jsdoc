@@ -2,7 +2,7 @@
  * The type `Tuple` is an `Array` of fixed length whose elements at specific
  * indices are of the specified types.
  * @typedef {Array} Tuple
- * @memberof module:@justinc/typedefs
+ * @memberof module:@justinc/jsdocs
  * @example
  * // A Tuple of arity (length) 2, whose first el is a Boolean and second el is
  * // an Array of Error:

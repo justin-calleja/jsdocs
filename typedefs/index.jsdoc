@@ -1,4 +1,4 @@
 /**
- * This module houses JSDoc 3 type definitions which to be re-used in different packages.
+ * This module houses JSDoc 3 type definitions which can be re-used in different packages.
  * @module @justinc/jsdocs
  */
